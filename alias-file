@@ -1,3 +1,5 @@
+-- setting sublime as default editor for git
+git config --global core.editor "sublime -n -w"
+
+
 git config --global alias.logtree "log --graph --oneline --decorate --all"
-
-
